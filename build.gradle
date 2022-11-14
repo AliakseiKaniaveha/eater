@@ -1,0 +1,4 @@
+//auto-generated
+plugins {
+    id 'java'
+}
