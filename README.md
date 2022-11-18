@@ -15,8 +15,12 @@ Buildable through Gradle/IDE defaults.
 4. > docker push YOUR_DOCKERHUB_NAME/eater
 
 ## Run
+>docker run --interactive --tty --detach --name eater eater
 
-docker run --interactive --tty --detach --name eater eater
+>docker exec -it <container id> /bin/sh
 
-or from build folder:
+>./eater/eater.sh
+
+
+### or from build folder:
 java -cp ./classes/java/main eater/Main
